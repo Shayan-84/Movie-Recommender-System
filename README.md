@@ -1,19 +1,33 @@
-# Movie-Recommender-System\
+# Movie Recommender System
 
+## Overview
+This project implements a movie recommendation system using data analysis and machine learning techniques.
+The goal is to suggest relevant movies to users based on similarity patterns in the dataset.
 
-## توضیحات
-این یک سیستم پیشنهاد فیلم مبتنی بر محتوا (Content-Based) است که با استفاده از داده‌های IMDB ساخته شده. سیستم با استفاده از TF-IDF و شباهت کسینوسی (cosine similarity) پیشنهادهایی بر اساس ژانر، کارگردان، نویسنده، سال، امتیاز و مدت‌زمان فیلم ارائه می‌دهد.
+## Dataset
+- Movie rating dataset
+- Includes user ratings and movie metadata
+- Data preprocessing and cleaning were performed before analysis
 
-## ویژگی‌ها
-- UI تعاملی با Streamlit
-- فیلتر بر اساس تعداد پیشنهادها و حداقل امتیاز
-- نمایش اطلاعات دیتاست (تعداد فیلم‌ها، میانگین امتیاز، ژانرهای برتر)
-- استایل‌سازی زیبا با CSS
+## Approach
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Similarity-based recommendation
+- Python libraries: Pandas, NumPy, Scikit-Learn
 
-## تکنولوژی‌ها
-- **زبان:** Python
-- **کتابخانه‌ها:** Pandas, Scikit-learn, Streamlit
-- **دیتاست:** `results_with_crew.csv` (داده‌های IMDB با اطلاعات فیلم‌ها)
+## Project Structure
+- notebooks/ : Jupyter notebooks for analysis and modeling
+- data/ : Dataset files
+- assets/ : Visualizations and figures (if applicable)
 
-## نحوه اجرا
-1. پکیج‌های مورد نیاز رو نصب کن:
+## Results
+- The system generates personalized movie recommendations
+- Similarity metrics are used to identify related movies
+
+## How to Run
+1. Clone the repository
+2. Install required Python libraries
+3. Open the notebook and run the cells step by step
+
+## Project Status
+Completed – open for improvements and experimentation
